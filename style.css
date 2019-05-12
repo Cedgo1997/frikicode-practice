@@ -62,17 +62,26 @@ footer{
     border-radius: 5px;
 }
 @media (max-width:700px){
-.navi:hover>ul>li{
-    display:none;
-}
-.inputs:checked+.cuadritos{
-    display: block;
-}
-#navegacion{
-    height: 100%;
-    display: inline-block;
-    text-align: center;
-}
+    .navi:hover>ul>li{
+        display:none;
+    }.navi:hover{
+        background-color: black;
+    }
+
+    .inputs:checked+ul>li{
+        display: block;
+        
+    }
+
+    #navegacion{
+        height: 100%;
+        display: inline-block;
+        text-align: center;
+    }
+    .cuadritos{
+        position: relative;
+        margin:auto;
+    }
 }
 #redycopy{
     background-color:silver;
@@ -111,5 +120,7 @@ p{
     color:white;
 }
 .inputs{
-    visibility: hidden;
+        visibility: hidden;
+        position: absolute;
 }
+
