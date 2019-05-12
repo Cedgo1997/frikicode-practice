@@ -1,0 +1,115 @@
+.navi{
+    list-style: none;
+    padding: 20px 50px;
+    margin:0px;
+}
+#navegacion{
+    display: inline-flex;
+    background-color: silver;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 100%;
+    height: 70px;
+    padding:0;
+}
+.desplegable{
+    list-style-type:none;
+    display: none;
+    padding: 10px 0px;
+    width:190px;
+    color:black;
+
+}
+
+.desplegable:hover{
+    color:white;
+    background-color:black;
+}
+.navi:hover>ul>li{
+    display:block;
+}
+.navi:hover{
+    background-color: black;
+    color: white;
+}
+.cuadritos{
+    position: absolute;
+    background-color: silver;
+    padding-left: 0px;
+    padding-right: 40px;
+    width: 150px;
+    margin:25px 0px 0px -50px;
+}
+body{
+    margin:0;
+}
+
+.navi:hover>a{
+    color:white;
+}
+.barra{
+    font-family: 'Anton', sans-serif;
+}
+footer{
+    position: absolute;
+    width: 100%;
+
+}
+.icon{
+    display: inline-flex;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+}
+@media (max-width:700px){
+.navi:hover>ul>li{
+    display:none;
+}
+.inputs:checked+.cuadritos{
+    display: block;
+}
+#navegacion{
+    height: 100%;
+    display: inline-block;
+    text-align: center;
+}
+}
+#redycopy{
+    background-color:silver;
+    margin:auto;
+    padding:0;
+}
+#redes{
+    width: 100%;
+    text-align: center;
+}
+p{
+    text-align: center;
+    margin: 0;
+ }
+#fondo{
+    background: linear-gradient(silver, white);
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+#logo{
+    width: 25%;
+    height: 25%;
+    margin: auto;
+}
+#eslogan{
+    font-family: sans-serif;
+}
+.parrafo{
+    text-align: justify;
+    padding:50px 80px 50px 80px;
+    line-height: 50px;
+}
+#Inicio{
+    background-color: black;
+    color:white;
+}
+.inputs{
+    visibility: hidden;
+}
